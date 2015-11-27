@@ -1,0 +1,14 @@
+{
+  "name": "romankata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node index.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
