@@ -23,5 +23,11 @@ test('roman numeral converter', t => {
 
     t.equal(arabic2roman(9), 'ix');
 
+    t.equal(arabic2roman(10), 'x');
+
+    t.equal(arabic2roman(15), 'xv');
+
+    t.equal(arabic2roman(40), 'xl');
+
 	t.end();
 });
